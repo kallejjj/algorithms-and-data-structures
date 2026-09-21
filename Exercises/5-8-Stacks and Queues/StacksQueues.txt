@@ -1,0 +1,7 @@
+1. Create a linked implementation of a stack (see slides) and test your solution.
+
+2. Create a vector-based implementation of a stack and test your solution. Instead of Vector class, you can also use ArrayList class. (ArrayList is unsynchronized, not thread-safe, whereas Vector is.)
+
+3. Create a linked implementation of a queue with head and tail refererences (see slides) and test your solution.
+
+4. Search definitions for the following object-oriented programming principles: data abstraction, encapsulation and information hiding.

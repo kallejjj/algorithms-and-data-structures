@@ -1,0 +1,19 @@
+1. On the slides there is a custom implementation of the DictionaryInterface. However, in this exercise you can use its ready-made implementations HashMap or Hashtable in the Java API.
+
+- A hashmap (or hashtable) is a data structure that stores key-value pairs and allows for fast data retrieval based on the key. 
+- It uses a hash function to convert the key into an index in an array, where the corresponding value is stored. 
+- This enables average-case constant time complexity O(1) for lookups, insertions, and deletions.
+
+A) Create a program that uses Java API class HashMap or Hashtable class to implement a phone book. Names will be used as keys and numbers as values. Add methods for fetching a number and listing all names and numbers. Write a driver class to test your solution.
+
+B) Modify the phone book to allow multiple numbers per person (work, home, mobile).
+
+C) What are the pros and cons of using HashMap vs. TreeMap?
+
+D) How long did it take you to do this exercise using AI?
+
+2. A) How will AI in your opinion change the work of IT professionals? Will it make the work more demanding or less demanding? Will it increase or decrease the demand for IT professionals? 
+
+B) In an age of rapid AI advancement, how do you stay ahead and make sure your role remains valuable and irreplaceable?
+
+

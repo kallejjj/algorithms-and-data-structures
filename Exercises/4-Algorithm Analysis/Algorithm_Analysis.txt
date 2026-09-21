@@ -1,0 +1,42 @@
+1. For each of the following six program fracments:
+a) Give an analysis of the running time (Big-O)
+b) Implement the code in Java and give the running time for several values of N
+c) Compare your analysis with the actual running times
+
+(1) 
+sum=0
+for (i=0; i<n; i++)
+  sum++;
+
+(2)
+sum=0
+for (i=0; i<n; i++)
+  for (j=0; j < n; j++)
+    sum++;
+
+(3)
+sum=0
+for (i=0; i<n; i++)
+  for (j=0; j < n * n; j++)
+    sum++;
+
+(4)
+sum=0
+for (i=0; i<n; i++)
+  for (j=0; j < i; j++)
+    sum++;
+
+(5)
+sum=0
+for (i=0; i<n; i++)
+  for (j=0; j < i * i; j++)
+    for (k=0; k < j; k++)
+      sum++;
+
+(6)
+sum=0
+for (i=0; i<n; i++)
+  for (j=1; j < i * i; j++)
+    if (j % i == 0)
+      for (k=0; k < j; k++)
+        sum++;

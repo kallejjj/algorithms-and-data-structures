@@ -1,0 +1,11 @@
+The Node class is the same as with Stack and Queue. You can implement it as a top-level class or as a nested class (for your List implementation).
+
+1. Implement a singly-linked list (only head reference). The list can contain any type of items; use generic type T for the list item. Create a driver class to test your solution. 
+
+2. Implement a refined version of a singly-linked list with head and tail references. The list can contain any type of items; use generic type T for the list item. Create a driver class to test your solution. 
+
+3. (Additional exercise, submitting the solution not required) Implement a doubly-linked list where each node contains a reference to the previous and next node in the list. 
+
+The previous pointer of the first node and the next pointer of the last node point to null. The list can contain any type of items; use generic type T for the list item. Create a driver class to test your solution. 
+
+
